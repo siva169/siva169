@@ -1,4 +1,4 @@
-# Hi, I'm TVSS Phanindra Guptha 👋
+![Hi, I'm TVSS Phanindra Guptha](assets/header-anurati.svg)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi%2C+I%27m+Phanindra+Guptha;BTech+AI+%26+Data+Science;Python+%C2%B7+React+%C2%B7+ML;I+build+with+Bruce;A+proud+LINUX+User)](https://git.io/typing-svg)
 
