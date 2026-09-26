@@ -1,0 +1,38 @@
+name: Blue contributions calendar
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # hourly, so the calendar stays as fresh as GitHub's own
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: calendar-refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate native-style blue calendar
+        run: python3 scripts/generate_calendar.py --user siva169
+
+      - name: Commit if changed
+        run: |
+          git config user.name "calendar-bot"
+          git config user.email "calendar-bot@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain metrics/contributions-calendar.svg)" ]]; then
+            git add metrics/contributions-calendar.svg
+            git commit -m "chore: refresh blue contributions calendar [skip ci]"
+            git push
+          else
+            echo "No calendar changes since last run — nothing to commit."
+          fi

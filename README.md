@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi%2C+I%27m+Phanindra+Guptha;BTech+AI+%26+Data+Science;Python+%C2%B7+React+%C2%B7+ML;I+build+with+Bruce;A+proud+LINUX+User)](https://git.io/typing-svg)
 
-![](metrics/metrics.plugin.isocalendar.svg)
+![Contribution calendar](metrics/contributions-calendar.svg)
 
 <img align="right" src="assets/text-portrait3-animated.svg" width="300" alt="Phanindra — portrait drawn in code characters" />
 
@@ -58,8 +58,6 @@
 ![](https://github-readme-stats.shion.dev/api?username=siva169&theme=default&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://streak-stats.demolab.com/?user=siva169&theme=default&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=siva169&theme=default&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-<!-- METRICS (lowlighter/metrics) embeds go here after the GitHub Action is set up -->
 
 ### ✍️ Random Dev Quote
 
