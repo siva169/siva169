@@ -2,8 +2,6 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi%2C+I%27m+Phanindra+Guptha;BTech+AI+%26+Data+Science;Python+%C2%B7+React+%C2%B7+ML;I+build+with+Bruce;A+proud+LINUX+User)](https://git.io/typing-svg)
 
-![Contribution calendar](metrics/contributions-calendar.svg)
-
 <img align="right" src="assets/text-portrait3-animated.svg" width="300" alt="Phanindra — portrait drawn in code characters" />
 
 **BTech 2nd Year — Artificial Intelligence and Data Science**
